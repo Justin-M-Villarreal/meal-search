@@ -2,10 +2,10 @@
 import HomePage from '@/views/HomePage.vue';
 <template>
   <nav>
-    <RouterLink to="{name: 'Home'}">Home</RouterLink>
-    <RouterLink to="{name: 'MealsByName'}">Home</RouterLink>
-    <RouterLink to="{name: 'MealsByLetter'}">Home</RouterLink>
-    <RouterLink to="{name: 'MealsByIngredients'}">Home</RouterLink>
+    <RouterLink :to="{name: 'Home'}">Home</RouterLink>
+    <RouterLink :to="{name: 'MealsByName'}">Meals By Name</RouterLink>
+    <RouterLink :to="{name: 'MealsByLetter'}">Meals By Letter</RouterLink>
+    <RouterLink :to="{name: 'MealsByIngredients'}">Meals By Ingredients</RouterLink>
   </nav>
 </template>
 

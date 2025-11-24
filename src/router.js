@@ -14,7 +14,7 @@ const routes = [
   { path: '/meal-search/by-ingredients/:ingredients?', name: 'MealsByIngredients', component: MealsByIngredients },
   { path: '/meal-search/meal/:id', name: 'MealDetails', component: MealDetails },
   { path: '/meal-search/ingredients', name: 'Ingredients', component: Ingredients },
-  { path: '/meal-seach/other', name: 'Other', component: () => import('@/views/OtherPage.vue') },
+  { path: '/meal-search/other', name: 'Other', component: () => import('@/views/OtherPage.vue') },
 ]
 
 const router = createRouter({
